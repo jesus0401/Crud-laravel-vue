@@ -3,10 +3,15 @@
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
+/* import VueRouter from 'vue-router'; */
+/* import Axios from 'axios'; */
 
 require('./bootstrap');
 
 window.Vue = require('vue');
+/* Vue.use(VueRouter); */
+
+/* Axios.defaults.baseURL = 'http://localhost:8000/api/'; */
 
 /**
  * The following block of code may be used to automatically register your

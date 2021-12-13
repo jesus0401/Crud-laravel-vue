@@ -24,7 +24,3 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::delete('/test/{id}','App\Http\Controllers\PostController@destroy');
 
 /* Route::resource('/', 'App\Http\Controllers\PostController'); */
-
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
